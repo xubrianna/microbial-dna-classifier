@@ -36,9 +36,17 @@ Early stopping (patience=5 epochs)
 ## Results
 
 ### Linear Baseline
-- **Accuracy**: ~40%
+- **Accuracy**: ~32%
 
 ![Training Curves](linear_loss_curve.png)
 
-### Next Steps
-- Implement CNN
+### Main Model: Convolutional Neural Network
+- **Accuracy**: ~63%
+
+
+![Final_Curves](linear_vs_cnn_loss_curve.png)
+
+
+
+
+
