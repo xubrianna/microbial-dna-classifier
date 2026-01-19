@@ -1,4 +1,4 @@
-# microbial-dna-classifier
+# Microbial DNA CNN Classifier
 
 # Project Overview
 Deep learning pipeline for classifying microbial species from DNA sequencing reads using PyTorch.
@@ -13,7 +13,7 @@ Approach
    
 - One-hot encoding of DNA sequences (A/C/G/T/N → 5-channel representation)
 - Train/validation/test split (80/10/10)
-- PyTorch DataLoader for efficient batch processing
+- **PyTorch** DataLoader for efficient batch processing
 
 ## 2. Model Architectures
 Baseline: Linear Classifier
