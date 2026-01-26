@@ -46,19 +46,11 @@ Early stopping (patience=5 epochs)
 
 ![Final_Curves](linear_vs_cnn_loss_curve.png)
 
-### Model Evaluation
+### Model Evaluation Summary
 
 ![Linear Confusion Matrix](linear_confusion_matrix.png)
 
 ![CNN Confusion Matrix](cnn_confusion_matrix.png)
-
-MODEL COMPARISON SUMMARY
-
-Linear Baseline Test Accuracy: 32.95% 
-
-CNN Model Test Accuracy:       61.30%
-
-Improvement:                   +28.35%
 
 Linear Macro-Average F1:       0.301
 
