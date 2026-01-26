@@ -52,16 +52,18 @@ Early stopping (patience=5 epochs)
 
 ![CNN Confusion Matrix](cnn_confusion_matrix.png)
 
-================================================================================
 MODEL COMPARISON SUMMARY
-================================================================================
 
-Linear Baseline Test Accuracy: 32.95%
+Linear Baseline Test Accuracy: 32.95% 
+
 CNN Model Test Accuracy:       61.30%
+
 Improvement:                   +28.35%
 
 Linear Macro-Average F1:       0.301
+
 CNN Macro-Average F1:          0.605
+
 Improvement:                   +0.305
 
 NN achieves 61.3% accuracy vs 33.0% for linear baseline - nearly 2x improvement. Macro F1-score improved from 0.30 to 0.61 which is a substantial in per-class performance. This demonstrates that convolutional layers successfully captured DNA sequence patterns that the linear baseline did not.
